@@ -1,7 +1,5 @@
 # Código de Raspagem do Site da OLX
-Este repostório contém um código inicial para raspagem de dados da OLX especificamente da url https://www.olx.com.br/estado-rn?q=casas+em+natal&o. 
-
-O objetivo principal é raspar o título e o valor dos anuncios dispostos na ulr. 
+Este repostório contém um código para a raspagem de título e valor de anúncios do site da olx.
 
 ## Funcionamento do Código
 O site estrutura os cards de anúncio da seguinte forma:
@@ -26,3 +24,6 @@ Com isso, o código busca dentre os elementos do DOM os que possuem essas classe
 3. Execute no terminal dentro do diretório do projeto:
    ```bash
    python3 scrapping.py
+4. Digite o nome que deseja pesquisar:
+   ```bash 
+   Digite o nome da pesquisa: [Pesquisa]
